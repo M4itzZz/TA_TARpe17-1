@@ -14,6 +14,13 @@ namespace Kangelased
         }
 
         public override void V6iduK6ne()
-        { }
+        {
+            Console.WriteLine("Ärge muretsege ma tulin teile appi!");
+        }
+
+        public void KasutaV6imet()
+        {
+            Console.WriteLine("Hea kangelane " + SuperNimi + " päästab maailma!");
+        }
     }
 }
