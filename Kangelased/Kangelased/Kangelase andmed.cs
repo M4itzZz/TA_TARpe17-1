@@ -22,5 +22,18 @@ namespace Kangelased
         public string Nimi { get => _Nimi; set => _Nimi = value; }
         public string SuperNimi { get => _superNimi; set => _superNimi = value; }
         public string V6ime { get => _v6ime; set => _v6ime = value; }
+
+        public string AnnaNimi()
+        {
+            return Nimi;
+        }
+        public string AnnaSuperNimi()
+        {
+            return SuperNimi;
+        }
+        public string AnnaV6ime()
+        {
+            return V6ime;
+        }
     }
 }
