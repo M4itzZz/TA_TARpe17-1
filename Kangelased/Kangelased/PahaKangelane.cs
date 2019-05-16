@@ -14,6 +14,13 @@ namespace Kangelased
         }
 
         public override void V6iduK6ne()
-        { }
+        {
+            Console.WriteLine("Te kõik surete!");
+        }
+
+        public void KasutaV6imet()
+        {
+            Console.WriteLine("Paha kangelane " + SuperNimi + " püüab hävitada maailma!");
+        }
     }
 }
