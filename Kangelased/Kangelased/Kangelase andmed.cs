@@ -8,9 +8,9 @@ namespace Kangelased
 {
     abstract class Kangelase_andmed:ISuperV6ime
     {
-        private string _Nimi;
-        private string _superNimi;
-        private string _v6ime;
+        public string _Nimi;
+        public string _superNimi;
+        public string _v6ime;
 
         public Kangelase_andmed(string Nimi, string superNimi, string v6ime)
         {

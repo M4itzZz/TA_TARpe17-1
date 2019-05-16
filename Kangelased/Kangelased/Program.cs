@@ -23,13 +23,20 @@ namespace Kangelased
 				}
 				else
 				{
-					Kangelased.Add(new Kangelane(nimi, asukoht));
+					//Kangelased.Add(new Kangelane(nimi, asukoht));
 				}
 			}
 		}
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World");
+            Kangelane batman = new HeaKangelane("Bruce wayne", "Batman", "Rikas");
+            Kangelane joker = new PahaKangelane("Hoodlum", "Joker", "Laughing Gas");
+            batman.KasutaV6imet();
+            joker.KasutaV6imet();
+            if (batman.Rynnak()
+            {
+
+            }
 		}
 	}
 }
