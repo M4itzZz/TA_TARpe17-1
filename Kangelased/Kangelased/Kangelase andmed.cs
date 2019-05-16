@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-    class Kangelase_andmed
+    abstract class Kangelase_andmed:ISuperV6ime
     {
         private string _Nimi;
         private string _superNimi;
@@ -35,5 +35,8 @@ namespace Kangelased
         {
             return V6ime;
         }
+        public abstract void V6iduK6ne();
+
+        
     }
 }
